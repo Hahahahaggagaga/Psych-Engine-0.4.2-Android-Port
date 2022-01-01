@@ -1,6 +1,6 @@
 function onCreate()
 	if not lowQuality then
-		makeAnimatedLuaSprite('fireplaceBG', 'images/Psychic_BG', -460, -520)
+		makeAnimatedLuaSprite('fireplaceBG', 'psychic/Psychic_BG', -460, -520)
 		luaSpriteAddAnimationByPrefix('fireplaceBG', 'inverted', 'FireplaceBG Inverted');
 		luaSpriteAddAnimationByPrefix('fireplaceBG', 'darken', 'FireplaceBG Darken', 24, false);
 		luaSpriteAddAnimationByPrefix('fireplaceBG', 'lighten', 'FireplaceBG Lighten', 24, false);
